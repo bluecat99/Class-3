@@ -1,0 +1,82 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.square{
+   width: 300px;
+   height: 300px;
+   background-color: aqua; 
+}
+
+.rectangle{
+    width: 400px;
+    height: 200px;
+    background-color: cadetblue;
+}
+
+.circle{
+    background-color: chartreuse;
+    height:200px ;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.oval{
+    height: 100px;
+    width: 200px;
+    background-color: chocolate;
+    border-radius: 100px/50px ;
+}
+
+.triangleup{
+    width: 0px ;
+    height: 0px;
+    border-bottom: 200px solid teal;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+}
+
+.triangledown{
+    width: 0px;
+    height: 0px;
+    border-top: 300px solid red;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+}
+
+.triangleright{
+    width: 0px;
+    height: 0px;
+    border-left: 400px solid yellow;
+    border-top: 200px solid transparent;
+    border-bottom: 200px solid transparent;
+}
+
+.triangleleft{
+    height: 0px;
+    width: 0px;
+    border-right: 400px solid grey;
+    border-top: 200px solid transparent;
+    border-bottom: 200px solid transparent;
+}
+
+.green{
+    height: 400px;
+    width: 700px;
+    background-color: green;
+    overflow: hidden;
+    position: relative;
+}
+
+.red{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius:50%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    position: absolute;
+}
